@@ -170,8 +170,9 @@ p{
     flex-wrap: wrap;
     gap: 30px;
 } */
-svg {
-    fill: #2196F3;
+.icon-item {
+    fill: currentColor;
+    margin-right: 10px;
 }
 .about {
     display: flex;
