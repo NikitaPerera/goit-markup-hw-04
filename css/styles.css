@@ -106,7 +106,9 @@ p{
 .web, .list .current{
     color: var(--active);
 }
-
+.icon-item {
+    fill: currentColor;
+}    
 .site-aut .link:not(:last-child) {
     margin-right: 50px;
 }
@@ -168,16 +170,8 @@ p{
     flex-wrap: wrap;
     gap: 30px;
 } */
-.list-advantages::before {
-    height: 120px;
-    background-color: #F5F4FA;
-    display: block;
-    background-image:url(../images/Men.svg);
-    content: "";
-    background-repeat: no-repeat; 
-    background-position: center;
-    margin-bottom: 30px;
-    border-radius: 4px;
+svg {
+    fill: #2196F3;
 }
 .about {
     display: flex;
